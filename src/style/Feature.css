@@ -1,0 +1,9 @@
+/* Save more and get your finances right */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,600&display=swap');
+
+.header1 {
+    left: calc(50% - 693.15px/2 + 0.09px);
+
+    color: #151531;
+}
