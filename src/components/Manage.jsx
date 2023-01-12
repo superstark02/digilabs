@@ -5,6 +5,7 @@ import three from '../img/manage3.png';
 import firstTik from '../img/firsttik.png';
 import secondTik from '../img/secondtik.png';
 import thiredTik from '../img/thiredtik.png';
+import "../style/Manage.css"
 
 const manage = () => {
     return (
@@ -20,16 +21,16 @@ const manage = () => {
                                 <br className="hidden lg:inline-block" />Your Projects
                             </h1>
                             <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Suspendisse varius enim in eros elementum tristique.</p>
-                            <div className="flex justify-center">
-                                <img src={firstTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={firstTik} alt="thiredTik" className='ticks' />
                                 Create posts, reels and stories.
                             </div>
-                            <div className="flex justify-center">
-                                <img src={firstTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="cnt-publish align-items-center">
+                                <img src={firstTik} alt="thiredTik" className="ticks" />
                                 Publish your Facebook posts dynamically.
                             </div>
-                            <div className="flex justify-center">
-                                <img src={firstTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={firstTik} alt="thiredTik" className='ticks' />
                                 Schedule any Twitter posts.
                             </div>
                         </div>
@@ -42,16 +43,16 @@ const manage = () => {
                                 <br className="hidden lg:inline-block" />your team's tasks
                             </h1>
                             <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Suspendisse varius enim in eros elementum tristique.</p>
-                            <div className="flex justify-center">
-                                <img src={secondTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={secondTik} alt="thiredTik" className='ticks' />
                                 Create posts, reels and stories.
                             </div>
-                            <div className="flex justify-center">
-                                <img src={secondTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={secondTik} alt="thiredTik" className='ticks' />
                                 Publish your Facebook posts dynamically.
                             </div>
-                            <div className="flex justify-center">
-                                <img src={secondTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={secondTik} alt="thiredTik" className='ticks' />
                                 Schedule any Twitter posts.
                             </div>
                         </div>
@@ -70,16 +71,16 @@ const manage = () => {
                                 <br className="hidden lg:inline-block" />overview for you
                             </h1>
                             <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Suspendisse varius enim in eros elementum tristique.</p>
-                            <div className="flex justify-center">
-                                <img src={thiredTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={thiredTik} alt="thiredTik" className='ticks' />
                                 Create posts, reels and stories.
                             </div>
-                            <div className="flex justify-center">
-                                <img src={thiredTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={thiredTik} alt="thiredTik" className='ticks' />
                                 Publish your Facebook posts dynamically.
                             </div>
-                            <div className="flex justify-center">
-                                <img src={thiredTik} alt="thiredTik" className='mr-2 mb-2' />
+                            <div className="flex justify-center align-items-center">
+                                <img src={thiredTik} alt="thiredTik" className='ticks' />
                                 Schedule any Twitter posts.
                             </div>
                         </div>

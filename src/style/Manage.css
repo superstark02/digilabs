@@ -1,0 +1,10 @@
+.ticks{
+    width: 30px;
+    height: 32px;
+    margin: 10px;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
