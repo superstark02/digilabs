@@ -1,0 +1,19 @@
+.cnt-super{
+    padding: 10px 0px;
+}
+.workflow{
+    width: 80%;
+}
+.cnt-workflow{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1024px){
+    .cnt-workflow{
+        flex-direction: column;
+    }
+    .workflow{
+        width: 90%;
+    }
+}

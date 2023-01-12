@@ -1,0 +1,56 @@
+.container-nav-bar{
+    width: 90%;
+    padding: 20px 0px;
+}
+
+.login-btn{
+    background-color: #9D0AFF;
+    color: white;
+    padding: 12px 17px;
+    margin: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.login-btn-1{
+    background-color: white;
+    color: #9D0AFF;
+    padding: 12px 17px;
+    margin: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: #9D0AFF solid 1px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.logo{
+    width: 100px;
+}
+
+@media only screen and (max-width:1024px) {
+    .container-nav-bar{
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .login-btn{
+        display: none;
+    }
+    .login-btn-1{
+        display: none;
+    }
+    .logo{
+        width: 100px;
+    }
+    .menu-btn{
+        background-color: #9D0AFF;
+        color: white;
+        padding: 10px;
+        margin: 0px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        display: block;
+    }
+}

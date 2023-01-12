@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "digilabs-d8b25",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
